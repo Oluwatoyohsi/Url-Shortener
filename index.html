@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" type="text/css" href="boostrap_5/css/bootstrap.min.css">
+    <script src="boostrap_5/js/bootstrap.bundle.min.js"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="style.css" rel="stylesheet">
+  
+  
+  <title>Shortly URL shortening API Challenge</title>
+
+  
+</head>
+<body>
+
+  <nav class="navbar">
+    <img src="images/logo.svg" alt="logo" class="logo-img">
+   
+    <div class="nav-link-container">
+    
+        <ul class = "firstlink-ul">
+          <li class="nav-link">Features</li>
+          <li class="nav-link"> Pricing</li>
+          <li class="nav-link">Resources</li>
+          </ul>
+    
+        <ul class="second-link-ul">
+           <li class="nav-link"> Login</li>
+          <li class="nav-link"><button>Sign Up</button></li>
+        </ul>
+    </div>
+    <button class="burger-menu" id="burger-menu">
+      <ion-icon class="bars" name = "menu-outline"></ion-icon>
+     </button>
+     </nav>
+    
+
+  <section id="hero" class="hero d-flex align-items-center section-bg">
+    <div class="container">
+      <div class="row justify-content-between gy-5">
+        <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
+          <h2 data-aos="fade-up">More than just shorter links</h2>
+          <p data-aos="fade-up" data-aos-delay="100">Build your brand’s recognition and get detailed insights 
+            on how your links are performing.</p>
+          <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+            <a href="#book-a-table" class="btn-book-a-table">Started</a>
+            
+          </div>
+        </div>
+        <div class="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
+          <img src="images/illustration-working.svg" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="300">
+        </div>
+      </div>
+    </div>
+  </section>
+   
+ 
+  <div class="container-fluid ">
+   <div class="short">
+    <form action="/" method="post" id="form-url" class="input-url">
+    <input type="url" name="url" id="text" placeholder= "Shorten a link here..."/>
+      <button type="submit"  class="btn-book-a-table"> Shorten It!  </button>     
+    </form>
+  </div>
+</div>
+    
+    <div class="container-fluid " id="url-shortner">
+      <!--<div class="row" style="margin: 8px;">
+        <div class="col-sm-4" style="background-color: white;"><p>http://www.frontendmentor.io</p></div>
+        <div class="col-sm-4" style="background-color: white;"></div>
+        <div class="col-sm-4" style="background-color: white;"><p>http://reLinks/kghuhj <button class="btn-book-a-table copy">Copy</button></p></div>
+
+      </div>-->
+    </div>
+
+
+<section class="c">
+<div class="container stats">
+   <h2> Advanced Statistics</h2>
+
+ <p><small> Track how your links are performing across the web with <br>our 
+  advanced statistics dashboard.</small></p>
+</div>
+
+
+  <div class="cards-container">
+    <div class="card-one card pb-4">
+      <img src="images/icon-brand-recognition.svg" alt="icon-brand">
+      <h3> Brand Recognition</h3>
+      <p>  Boost your brand recognition with each click. Generic links don't 
+        mean a thing. Branded links help instil confidence in your content.</p>
+    </div>
+
+    <div class="card-two card">
+      <img src="images/icon-detailed-records.svg" alt="icon-brand">
+      <h3>Detailed Records </h3>
+      <p> Gain insights into who is clicking your links. Knowing when and where 
+        people engage with your content helps inform better decisions.</p>
+    </div>
+
+    <div class="card-three card">
+      <img src="images/icon-fully-customizable.svg" alt="icon-brand">
+      <h3>Fully Customizable</h3>
+      <p>  Improve brand awareness and content discoverability through customizable 
+        links, supercharging audience engagement. </p>
+    </div>
+  </div>
+</section>
+
+
+
+  
+  <div class="boost">
+  <h2>Boost your links today</h2>
+<button class="btn-book-a-table"> Get Started </button>
+</div>
+
+<footer>
+<div class="container">
+  <div class="row gy-3">
+    <div class="col-lg-3 col-md-6 d-flex">
+      <div>
+        <a href="index.html" class="logo pear d-flex align-items-center me-auto me-lg-0">
+          <h1>Shortly</h1>
+        </a>
+      </div>
+
+    </div>
+
+  
+
+    <div class="col-lg-3 col-md-6 footer-links d-flex">
+      <div>
+        <h3><b>Resources</b></h3>
+        <ul>
+          <li>Blog</li> 
+          <li>Developers</li> 
+          <li>Support</li> 
+         </ul>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 footer-links d-flex">
+      <div>
+       <h3><b>Company</b></h3>
+  <ul>
+    <li>About</li> 
+    <li>Our Team</li> 
+    <li> Careers</li> 
+    <li> Contact</li> 
+   </ul>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 footer-links">
+      <div class="social-links d-flex">
+        <img src="images/icon-facebook.svg" alt="logo">
+        <img src="images/icon-twitter.svg" alt="logo">
+        <img src="images/icon-pinterest.svg" alt="logo">
+        <img src="images/icon-instagram.svg" alt="logo">
+      </div>
+    </div>
+
+  </div>
+</div>
+</footer>
+ 
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  <script src="app.js" type="module"></script>
+</body>
+</html>
