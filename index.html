@@ -15,26 +15,37 @@
 </head>
 <body>
 
-  <nav class="navbar">
-    <img src="images/logo.svg" alt="logo" class="logo-img">
-   
-    <div class="nav-link-container">
-    
-        <ul class = "firstlink-ul">
-          <li class="nav-link">Features</li>
-          <li class="nav-link"> Pricing</li>
-          <li class="nav-link">Resources</li>
+  
+    <nav class="navbar navbar-expand-lg navbar-light ">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <img src="images/logo.svg" alt="logo" class="logo-img ps-3">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"> Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Resources</a>
+            </li>
           </ul>
+          <div class="d-flex">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"> <button class=" btn-book-a-table" >Sign Up</button></a>
+            </li>
+          </div>
+        </div>
+      </div>
+    </nav>
     
-        <ul class="second-link-ul">
-           <li class="nav-link"> Login</li>
-          <li class="nav-link"><button>Sign Up</button></li>
-        </ul>
-    </div>
-    <button class="burger-menu" id="burger-menu">
-      <ion-icon class="bars" name = "menu-outline"></ion-icon>
-     </button>
-     </nav>
     
 
   <section id="hero" class="hero d-flex align-items-center section-bg">
@@ -57,16 +68,16 @@
   </section>
    
  
-  <div class="container-fluid ">
+  <div>
    <div class="short">
     <form action="/" method="post" id="form-url" class="input-url">
     <input type="url" name="url" id="text" placeholder= "Shorten a link here..."/>
-      <button type="submit"  class="btn-book-a-table"> Shorten It!  </button>     
+      <button type="submit"  class="btn-book-a-table "> Shorten It!  </button>     
     </form>
   </div>
 </div>
     
-    <div class="container-fluid " id="url-shortner">
+    <div id="url-shortner">
       <!--<div class="row" style="margin: 8px;">
         <div class="col-sm-4" style="background-color: white;"><p>http://www.frontendmentor.io</p></div>
         <div class="col-sm-4" style="background-color: white;"></div>
@@ -170,8 +181,8 @@
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Amire Toyosi</a>.
   </div>
-  <script src="app.js" type="module"></script>
+  <script src="/app.js" ></script>
 </body>
 </html>
