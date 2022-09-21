@@ -43,7 +43,7 @@ app.get('/:slug', async (req, res) => {
 });
 
 app.get('/', (req, res) => {
-  res.sendFile(path.resolve('index.html'));
+  res.sendFile(path.join(__dirname, "../index.html"));
 });
 
 module.exports = app;
